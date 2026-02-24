@@ -28,43 +28,43 @@ A simple fullstack authentication system using Angular, Node.js, Express, TypeSc
 
 ## Setup
 ### Backend
-cd backend
-npm install
+cd backend  
+npm install  
 npm run dev
 
 ### Create .env:
 
-PORT=3001
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=yourpassword
-DB_NAME=login_system
-JWT_SECRET=your_secret
+PORT=3001  
+DB_HOST=localhost  
+DB_USER=root  
+DB_PASSWORD=yourpassword  
+DB_NAME=login_system  
+JWT_SECRET=your_secret  
 
 ### Frontend
-cd frontend/login-system-frontend
-npm install
-ng serve
+cd frontend    
+npm install  
+ng serve  
 
 - Frontend: http://localhost:4200
 - Backend: http://localhost:3001
 
 ## API
 
-## Register
+### Register
 
 POST /api/auth/register
 
-## Login
+### Login
 
 POST /api/auth/login
 
-## Profile (Protected)
+### Profile (Protected)
 
-GET /api/auth/profile
+GET /api/auth/profile  
 Authorization: Bearer TOKEN
 
 ## Author
 
-Punnathorn Musikphan
+Punnathorn Musikphan  
 https://github.com/PunTwT
